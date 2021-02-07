@@ -1,0 +1,48 @@
+<!-- name attribute -->
+<!-- when submited form data to server,name make the value to be refered -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>form test</h1>
+    <form action="/search">
+      <button>pls don't submit the form</button>
+      <p>
+        <label for="id">enter a username</label>
+        <input type="text" placeholder="type id" id="id" name="id" />
+      </p>
+      <p>
+        <label for="password">enter the password</label>
+        <input
+          type="password"
+          placeholder="type password"
+          id="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">pick the color</label>
+        <input type="color" id="color" name="color" />
+      </p>
+      <p>
+        <label for="number">type the number</label>
+        <input
+          type="number"
+          placeholder="type number"
+          id="number"
+          name="number"
+        />
+      </p>
+      <button type="button">submit</button>
+      <!-- other way making button -->
+      <!-- if want to change the text, have to use value -->
+      <input type="submit" value="click me" />
+    </form>
+    <button>outside form</button>
+  </body>
+</html>
