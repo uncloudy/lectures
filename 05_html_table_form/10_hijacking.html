@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>form test</h1>
+    <form action="/search">
+      <button>pls don't submit the form</button>
+      <p>
+        <label for="id">enter a username</label>
+        <input type="text" placeholder="type id" id="id" name="id" />
+      </p>
+      <p>
+        <label for="password">enter the password</label>
+        <input
+          type="password"
+          placeholder="type password"
+          id="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">pick the color</label>
+        <input type="color" id="color" name="color" />
+      </p>
+      <p>
+        <label for="number">type the number</label>
+        <input
+          type="number"
+          placeholder="type number"
+          id="number"
+          name="number"
+        />
+      </p>
+      <button type="button">submit</button>
+      <!-- other way making button -->
+      <!-- if want to change the text, have to use value -->
+      <input type="submit" value="click me" />
+    </form>
+    <h2>hijacking search</h2>
+    <form action="https://www.reddit.com/search/">
+      <label for="searchgoogle">Reddit search</label>
+      <input type="text" id="search" name="q" />
+      <button type="submit">reddit search</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <label for="searchgoogle">Google search</label>
+      <input type="text" id="searchgoogle" name="q" />
+      <button type="submit">google search</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <label for="searchyoutube">youtube search</label>
+      <input type="text" id="searchyoutube" name="search_query" />
+      <!-- <button type="submit">youtube search</button> -->
+      <!-- if the button tag doesn't exist, 'enter' will do  -->
+    </form>
+  </body>
+</html>
