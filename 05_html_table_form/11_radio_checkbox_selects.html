@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>more inputs</h2>
+    <h3>checkbox</h3>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <label for="agree">I agree to everything</label>
+      <button type="submit">submit</button>
+    </form>
+    <h3>radio button</h3>
+    <!-- the radio button has same name attributes -->
+    <!-- value is not displayed, and it is for only submitting -->
+    <form action="/birds">
+      <label for="x">x</label>
+      <input type="radio" name="size" id="x" value="x" />
+      <label for="s">s</label>
+      <input type="radio" name="size" id="s" value="s" />
+      <label for="m">m</label>
+      <input type="radio" name="size" id="m" value="m" />
+      <button type="submit">submit</button>
+    </form>
+    <h3>dropdown</h3>
+    <form action="/birds">
+      <label for="meal">pls select an entree</label>
+      <select name="meal" id="meal">
+        <option value="fi">fish</option>
+        <option value="me">meat</option>
+        <option value="ri">rice</option>
+        <option value="noo">noodle</option>
+        <option value="sp">soup</option>
+      </select>
+      <button type="submit">go meal</button>
+    </form>
+  </body>
+</html>
