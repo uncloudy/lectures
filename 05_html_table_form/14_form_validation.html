@@ -1,0 +1,39 @@
+<!-- form validation -->
+<!-- constraint : ex) password has more than 6 characters  -->
+<!-- this lecture is about sever side validation!! check the belows-->
+<!-- when submitted data,there could also be validation on the sever side -->
+<!-- if data submitted is not valid, entire page refreshes and tell the user there are any problems -->
+
+<!-- built-in validation-->
+<!-- required -->
+<!-- minlength, maxlength -->
+<!-- min, max -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/account">
+      <label for="first">First name</label>
+      <input type="text" name="first" id="first" required />
+      <label for="username">username</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        minlength="5"
+        maxlength="20"
+        required
+      />
+      <label for="email">email</label>
+      <input type="email" name="email" id="email" required />
+      <label for="url">url</label>
+      <input type="url" name="url" id="url" required />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
