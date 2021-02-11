@@ -1,0 +1,27 @@
+h1 {
+  color: #5fcffc;
+  background-color: rgb(89, 151, 0);
+}
+
+h2 {
+  color: magenta;
+}
+
+p {
+  color: white;
+  /* background: black; */
+  background-color: black;
+}
+
+button {
+  color: red;
+  background-color: pink;
+}
+
+/* shorhand of hex color */
+/* #000000 = #000 */
+/* #cc55ee = #c5e */
+body {
+  background-color: #000;
+  background-color: #c5e;
+}
