@@ -1,0 +1,19 @@
+/* attribute selector: using [attribute name='something'] */
+/* 
+input[type='text'] {
+    width: 40px;
+}
+select all input elements where the type attribute is set to 'text'
+*/
+
+input {
+  color: greenyellow;
+}
+
+input[type="password"] {
+  background-color: magenta;
+}
+
+section[class="post"] {
+  background-color: purple;
+}
