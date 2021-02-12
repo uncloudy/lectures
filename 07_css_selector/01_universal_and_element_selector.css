@@ -1,0 +1,19 @@
+/* universal selector : select everything; not very commonly used */
+/* if the entire docment is huge, it's not inefficient */
+* {
+  color: pink;
+  background-color: cyan;
+}
+
+/* element selector */
+button {
+  font-size: 30px;
+}
+
+/* combine various selector */
+/* use 'comma' */
+h1,
+h2 {
+  /*select every h1 and h2*/
+  color: black;
+}
