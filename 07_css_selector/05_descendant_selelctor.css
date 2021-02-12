@@ -1,0 +1,20 @@
+/* descendant selector : using a space*/
+/* 
+select all a tag nested or descendant of li tag
+li a {
+    property:value;
+}
+*/
+/* important : comma - li and a // space- a inside of li */
+
+section span a {
+  color: red;
+}
+
+.post a {
+  color: red;
+}
+
+footer a {
+  color: orange;
+}
