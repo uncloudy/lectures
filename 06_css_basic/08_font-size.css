@@ -1,0 +1,6 @@
+/* sytax */
+/* 1. relative : em rem % vh vw */
+/* 2. absolute : px pt cm in mm */
+h1 {
+  font-size: 100px;
+}
