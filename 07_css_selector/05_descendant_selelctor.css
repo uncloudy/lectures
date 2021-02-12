@@ -1,4 +1,5 @@
 /* descendant selector : using a space*/
+/* no matter it's whether direct descendant or not */
 /* 
 select all a tag nested or descendant of li tag
 li a {
