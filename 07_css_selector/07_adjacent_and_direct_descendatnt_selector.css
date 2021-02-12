@@ -1,0 +1,32 @@
+/* adjacent selector : using combinator + */
+/* 
+h1 + p {
+    color: red;
+}
+select only the p that is immediately preceded by h1 (same level)
+*/
+
+input + button {
+  color: red;
+}
+
+h2 + button {
+  font-size: 15px;
+  background-color: magenta;
+}
+
+/* direct child : using greater than sign > */
+/* 
+div > li {
+    color:white;
+}
+select only the li that is direct chilren of div; not for generic chidren nested
+*/
+
+footer a {
+  color: orange;
+}
+
+footer > a {
+  color: orchid;
+}
