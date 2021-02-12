@@ -1,0 +1,50 @@
+h1 {
+  /* the text alignment doesn't mean how an element is aligned on the page itself */
+  /* it only operates within the confines of the cotents */
+  text-align: center;
+  /* width: 50%; */
+}
+
+p {
+  text-align: center;
+}
+
+/* font-weight : boldness and lightness of the font */
+/* common weight : 400 = normal */
+/* weight : 700 = bold */
+h1 {
+  font-weight: normal;
+  font-weight: 400;
+}
+p {
+  /* font-weight: bold; */
+}
+
+/* text decoration : underline, overline, line-through*/
+h1 {
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  /* specify color */
+  text-decoration: underline red;
+  /* add styles : dotted, doule, dashed, wavy  */
+  text-decoration: red overline wavy;
+}
+/* remove by using text decoration */
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* line height : control the line height */
+/* units : 
+1. multiply the font size by the number */
+
+p {
+  line-height: 2;
+}
+
+/* letter spacing */
+h1 {
+  letter-spacing: 10px;
+}
