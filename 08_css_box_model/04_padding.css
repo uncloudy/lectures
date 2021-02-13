@@ -1,4 +1,8 @@
-/* padding is space between border and content */
+/* padding is space between border and content
+1 padding value : top / right / bottom / left
+2 padding value : top,bottom / left,right
+3 padding value : top / left,right / bottom
+4 padding value : clockwise */
 
 div {
   width: 200px;
