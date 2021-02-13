@@ -1,0 +1,22 @@
+/* some css propertirs will be inherited by child element if they are not set specifically */
+body {
+  color: purple;
+}
+
+/* h1 {
+  color: blue; /* it's not inherited from parent 
+} 
+*/
+
+section {
+  color: aqua;
+}
+
+form {
+  color: yellow;
+}
+/* button and input doesn't inherit the color, in this case, do like below */
+input,
+button {
+  color: inherit; /* inherit from nearest parants */
+}
