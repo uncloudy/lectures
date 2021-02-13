@@ -1,0 +1,28 @@
+/* pseudo selector : keyword added to a selctor that specifies a special state of the selected element */
+
+/* hover : hover */
+.post button:hover {
+  background-color: salmon;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* active : from click to release*/
+.post button:active {
+  background-color: blueviolet;
+}
+
+/* nth-of-types */
+.post {
+  background-color: coral;
+}
+.post:nth-of-type(2n) {
+  background-color: darkblue;
+}
