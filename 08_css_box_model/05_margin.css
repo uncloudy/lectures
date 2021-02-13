@@ -1,0 +1,58 @@
+/* margin is outside of element's botder between the element and something else
+1 margin value : top / right / bottom / left
+2 margin value : top,bottom / left,right
+3 margin value : top / left,right / bottom
+4 margin value : clockwise */
+
+/* body has default margin 8px */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  background-color: pink;
+  width: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  margin: 0;
+}
+
+#one {
+  background-color: teal;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+#two {
+  background-color: tomato;
+  border-color: orange;
+  border-width: 3px;
+  border-style: dashed;
+  border-left-width: 10px;
+  padding-right: 50px;
+}
+
+#three {
+  background-color: violet;
+  /* border shorthand */
+  border: 4px solid black;
+  border-left-style: dotted;
+  /* border radius */
+  border-radius: 10px;
+  border-radius: 50%;
+  margin: 200px;
+}
+
+button {
+  padding: 10px;
+}
