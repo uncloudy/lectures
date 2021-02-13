@@ -1,0 +1,14 @@
+/* pseudo element : using :: */
+/* keyword added to a selector that lets you style a 'particular part' of selected element */
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: darkblue;
+}
+
+p::selection {
+  background-color: yellow;
+}
