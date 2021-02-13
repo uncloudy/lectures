@@ -1,0 +1,6 @@
+/* width and height : the inner content area */
+div {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
