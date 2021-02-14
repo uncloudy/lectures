@@ -1,0 +1,46 @@
+/* em unit */
+/* 1. relative unit */
+/* 2. 1em = 1 x parent */
+
+html {
+  font-size: 10px;
+}
+
+article {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-left: 1em;
+  /* margin refers to font size ifself, and font size refers to parent */
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.5em;
+}
+
+/* if using px, the parent's size changes, the button shape changes too */
+/* to avoid this,use em units */
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  color: white;
+  background-color: grey;
+}
+
+/* em unit's problem */
+ul {
+  font-size: 2em;
+}
+
+/* rem unit */
+/* relative to root html element!! */
+ul {
+  font-size: 2rem;
+}
