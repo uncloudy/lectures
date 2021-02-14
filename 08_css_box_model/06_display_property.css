@@ -2,6 +2,7 @@
 /* 1. inline : width and height are ignored // padding and margin push element away horizontally
 2. block : width, height, padding, margin are respected
 3. inline-block : behave like inline element; width,height, padding and margin are respected */
+4. display: none;
 
 /* h1 {
   background-color: palegoldenrod;
