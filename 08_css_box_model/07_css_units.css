@@ -1,0 +1,23 @@
+/* percentage */
+/* 1. relative units : always relative to some other value
+   2. width 50% : half width of parent
+   3. line-height 50% : half of the font size of element itself  
+*/
+
+section {
+  background-color: wheat;
+  width: 400px;
+  height: 400px;
+}
+
+div {
+  background-color: violet;
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
