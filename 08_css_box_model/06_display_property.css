@@ -1,0 +1,41 @@
+/* display property */
+/* 1. inline : width and height are ignored // padding and margin push element away horizontally
+2. block : width, height, padding, margin are respected
+3. inline-block : behave like inline element; width,height, padding and margin are respected */
+
+/* h1 {
+  background-color: palegoldenrod;
+  border: 1px black solid;
+  display: inline;
+}
+
+span {
+  background: paleturquoise;
+  border: 1px black solid;
+  display: block;
+} */
+div {
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  border: 1px black solid;
+  display: inline-block;
+  margin: 50px;
+}
+h1 {
+  background-color: violet;
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+
+span {
+  background-color: yellow;
+  border: 1px black solid;
+  width: 50px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+}
