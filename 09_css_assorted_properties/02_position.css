@@ -1,0 +1,49 @@
+/* position sets how an element is positioned */
+/* 1. static : nomal flow in document, top/bottm/left/right doesn't work  */
+/* 2. relative : nomal flow in document, space given */
+/* 3. absolute : removed from normal flow, no space given, positioned to closest positioned ancester(anything other than static) */
+/* 4. fixed : same as absolute except it has nothing to do with parent element */
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+  background-color: chocolate;
+  margin: 10px;
+  display: inline-block;
+}
+
+#middle1,
+#middle2,
+#middle3,
+#middle4 {
+  background-color: yellow;
+}
+
+#static #middle1 {
+  position: static; /*default*/
+  top: 20px; /*doesn't work*/
+  left: 20px; /*doesn't work*/
+}
+
+#relative #middle2 {
+  position: relative; /*default*/
+  top: 10px;
+  left: 10px;
+}
+
+#absolute {
+  position: relative;
+}
+
+#absolute #middle3 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#fixed #middle4 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
