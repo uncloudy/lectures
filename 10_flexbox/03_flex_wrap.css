@@ -1,4 +1,6 @@
-/* justify content : how the content is distributed across the main axis */
+/* flex-wrap : determine whether the elements are going to
+wrap along the main axis onto new line or new column if main axis is
+vertical */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -13,22 +15,17 @@ h1 {
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse; /*wrap reverse: affect to cross axis*/
+
   flex-direction: row;
   justify-content: flex-start;
-  /* justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-between; /*not for outside of edge*/
-  /* justify-content: space-around;
-  justify-content: space-evenly;  */
-  /* 
-  flex-direction: column;
-  justify-content: flex-end;
-  justify-content: space-evenly; */
   flex-wrap: wrap;
   flex-wrap: wrap-reverse;
 }
 
 #container div {
-  width: 200px;
+  width: 400px;
   height: 200px;
 }
