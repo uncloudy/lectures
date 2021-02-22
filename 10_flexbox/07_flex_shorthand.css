@@ -1,0 +1,22 @@
+/* flex: flex-grow flex-shrink flex-basis */
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .sidebar {
+  background-color: purple;
+  flex: 1; /*flex grow*/
+  flex: 1 2 300px; //*flex grow flex shrink flex basis*/
+  border: 1px white solid;
+}
+main .maincontent {
+  background-color: orange;
+  flex: 1;
+  flex: 2 1 800px; /*flex grow flex shrink flex basis*/
+}
