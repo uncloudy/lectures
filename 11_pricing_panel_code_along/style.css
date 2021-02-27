@@ -145,4 +145,23 @@ body {
   padding: 15px 25px;
   width: 100%;
   max-width: 960px;
+  display: flex;
+  flex-direction: column; /*mobile first*/
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  /* flex: 1; */
+}
+
+.pricing-plan:nth-of-type(3) {
+  /* :last-child */
+  border-bottom: none;
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
 }
