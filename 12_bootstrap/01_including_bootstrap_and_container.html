@@ -12,21 +12,38 @@
     />
     <link rel="stylesheet" href="01_including_bootstrap_and_container.css" />
   </head>
+
   <body>
-    <div class="container">
-      <!-- Use .container-fluid for a full width container, spanning the entire width of the viewport.  -->
-      <!-- Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached, after which we apply max-widths for each of the higher breakpoints. For example, .container-sm is 100% wide to start until the sm breakpoint is reached, where it will scale up with md, lg, xl, and xxl.
-        <div class="container-sm">100% wide until small breakpoint</div>
-        <div class="container-md">100% wide until medium breakpoint</div>
-        <div class="container-lg">100% wide until large breakpoint</div>
-        <div class="container-xl">100% wide until extra large breakpoint</div>
-        <div class="container-xxl">100% wide until extra extra large breakpoint</div> -->
-      <h1>hello</h1>
+    <!-- container-fluid : make container full width -->
+    <div class="container-fluid">
+      <h1>container fliud</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi inventore
-        pariatur quia beatae, praesentium doloribus deleniti similique labore
-        enim neque.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae iure
+        animi fuga nam saepe, cum quisquam quis placeat ex aut labore libero
+        delectus magni porro minima laboriosam quae quia ad!
       </p>
+      <div class="container">
+        <!-- container : default -->
+        <h1>default container</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+          consequatur non nulla quod voluptatem provident sit molestiae
+          possimus? Ex ducimus consequatur quod tempora eius in qui, magnam
+          expedita recusandae enim.
+        </p>
+      </div>
+      Responsive containers : Responsive containers allow you to specify a class
+      that is 100% wide until the specified breakpoint is reached, after which
+      we apply max-widths for each of the higher breakpoints. For example,
+      .container-sm is 100% wide to start until the sm breakpoint is reached,
+      where it will scale up with md, lg, xl, and xxl.
+      <div class="container-sm">100% wide until small breakpoint</div>
+      <div class="container-md">100% wide until medium breakpoint</div>
+      <div class="container-lg">100% wide until large breakpoint</div>
+      <div class="container-xl">100% wide until extra large breakpoint</div>
+      <div class="container-xxl">
+        100% wide until extra extra large breakpoint
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
