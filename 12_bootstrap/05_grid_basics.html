@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Basics</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="display-1 text-center text-primary">the grid system</h1>
+      <div class="row">
+        <!-- every row has 12 units of space divvy up -->
+        <!-- every pieces we want to divvy up is going to be a column -->
+        <!-- columns has class: "col" -->
+        <div class="col-4 bg-light">i am 50% (6units)</div>
+        <div class="col-2 bg-info">i am 50% (6units)</div>
+        <div class="col-6 bg-dager">i am 50% (6units)</div>
+      </div>
+      <div class="row">
+        <div class="col-4 bg-secondary">2nd row</div>
+        <div class="col-4 bg-success">2nd row</div>
+        <div class="col-4 bg-info">2nd row</div>
+      </div>
+      <div class="row">
+        <!--if just use "col" itself, it will be divided automatically-->
+        <div class="col bg-primary">2nd row</div>
+        <div class="col bg-success">2nd row</div>
+        <div class="col bg-info">2nd row</div>
+        <div class="col bg-info">2nd row</div>
+      </div>
+      <div class="row">
+        <!--if just use "col" itself, it will be divided automatically-->
+        <div class="col bg-primary">2nd row</div>
+        <div class="col bg-success">2nd row</div>
+        <div class="col-8 bg-info">2nd row</div>
+        <div class="col bg-info">2nd row</div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
